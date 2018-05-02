@@ -1,0 +1,101 @@
+%************************************************
+\chapter{First chapter}\label{ch:first}
+%************************************************
+This is the first chapter. For more information on this template, see the documentation of the "Classic Thesis" template by Andr� Miede \url{http://www.ctan.org/tex-archive/macros/latex/contrib/classicthesis/}. The following hints might be interesting for typesetting your thesis:
+
+\begin{enumerate}
+    \item At the beginning of the file "thesis.tex", substitute the thesis title, date, name etc. by your own
+    \item It is recommendable to write each chapter in a separate TEX file
+    \item At the end of the file "thesis.tex", include all external TEX files you wish to include (e.g. chapters, appendices, acknowledgements, dedications etc.)
+    \item Line 95 of "thesis.tex" allows you to change the text margins of your thesis
+    \item The rest of this chapter includes examples for images, tables, footnotes etc.
+\end{enumerate}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat elementum justo a scelerisque. Nam a urna a velit pretium malesuada. Nulla facilisi. Praesent sollicitudin sodales luctus. Sed eros ipsum, auctor vitae interdum vel, varius id sem. Donec iaculis, nulla nec gravida pharetra, est purus rutrum lorem, ut pretium nulla sem eget elit. Duis eu adipiscing augue. Vestibulum et mattis magna. Curabitur sit amet est eu tortor tristique sodales. Morbi ullamcorper facilisis est ac commodo. Mauris lacinia leo et enim vehicula convallis mattis nisi venenatis. Nulla lacus lorem, tincidunt id consectetur sed, ultricies at felis. Vestibulum eu sem non est facilisis pulvinar. Suspendisse dui nibh, pulvinar tempor cursus eget, egestas id augue. Mauris molestie erat sed turpis luctus aliquet. Donec sed pellentesque purus. Integer et nunc mauris.
+
+
+\section{Examples}
+
+Within a section, you can create a subsection and a subsubsection. Moreover, you can include footnotes\footnote{This is a footnote}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat elementum justo a scelerisque. Nam a urna a velit pretium malesuada. Nulla facilisi. Praesent sollicitudin sodales luctus. Sed eros ipsum, auctor vitae interdum vel, varius id sem. Donec iaculis, nulla nec gravida pharetra, est purus rutrum lorem, ut pretium nulla sem eget elit. Duis eu adipiscing augue.
+
+\subsection{Subsections}
+
+Subsections are included in the index. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat elementum justo a scelerisque. Nam a urna a velit pretium malesuada. Nulla facilisi. Praesent sollicitudin sodales luctus. Sed eros ipsum, auctor vitae interdum vel, varius id sem. Donec iaculis, nulla nec gravida pharetra, est purus rutrum lorem, ut pretium nulla sem eget elit. Duis eu adipiscing augue. Vestibulum et mattis magna. Curabitur sit amet est eu tortor tristique sodales.
+
+\subsubsection{This is a subsubsection}
+
+Subsubsections are not included in the index. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat elementum justo a scelerisque. Nam a urna a velit pretium malesuada. Nulla facilisi. Praesent sollicitudin sodales luctus. Sed eros ipsum, auctor vitae interdum vel, varius id sem. Donec iaculis, nulla nec gravida pharetra, est purus rutrum lorem, ut pretium nulla sem eget elit. Duis eu adipiscing augue. Vestibulum et mattis magna. Curabitur sit amet est eu tortor tristique sodales. Morbi ullamcorper facilisis est ac commodo. Mauris lacinia leo et enim vehicula convallis mattis nisi venenatis. Nulla lacus lorem, tincidunt id consectetur sed, ultricies at felis. Vestibulum eu sem non est facilisis pulvinar. Suspendisse dui nibh, pulvinar tempor cursus eget, egestas id augue. Mauris molestie erat sed turpis luctus aliquet. Donec sed pellentesque purus. Integer et nunc mauris.
+
+\subsubsection{And another subsubsection}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat elementum justo a scelerisque. Nam a urna a velit pretium malesuada. Nulla facilisi. Praesent sollicitudin sodales luctus. Sed eros ipsum, auctor vitae interdum vel, varius id sem. Donec iaculis, nulla nec gravida pharetra, est purus rutrum lorem, ut pretium nulla sem eget elit. Duis eu adipiscing augue. Vestibulum et mattis magna. Curabitur sit amet est eu tortor tristique sodales. Morbi ullamcorper facilisis est ac commodo. Mauris lacinia leo et enim vehicula convallis mattis nisi venenatis. Nulla lacus lorem, tincidunt id consectetur sed, ultricies at felis. Vestibulum eu sem non est facilisis pulvinar. Suspendisse dui nibh, pulvinar tempor cursus eget, egestas id augue. Mauris molestie erat sed turpis luctus aliquet. Donec sed pellentesque purus. Integer et nunc mauris.
+
+\subsection{Images}
+
+In this subsection we include some image examples. First, a single image in Figure~\ref{fig:single_image}, and second, multiple side-by-side images in Figure~\ref{fig:side_by_side}. Images can be in JPG and PDF format.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=10cm]{gfx/sample1}
+\caption[This is a short caption for the index]{This is a long caption, which will be placed below the image}
+\label{fig:single_image}
+\end{figure}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat elementum justo a scelerisque. Nam a urna a velit pretium malesuada. Nulla facilisi. Praesent sollicitudin sodales luctus. Sed eros ipsum, auctor vitae interdum vel, varius id sem. Donec iaculis, nulla nec gravida pharetra, est purus rutrum lorem, ut pretium nulla sem eget elit. Duis eu adipiscing augue.
+
+\begin{figure}[h!]
+    \myfloatalign
+    \subfloat[Caption of image 1]
+    {\includegraphics[width=.35\linewidth]{gfx/sample2}} \quad
+    \subfloat[Caption of image 2]
+    {\includegraphics[width=.35\linewidth]{gfx/sample3}} \\
+    \subfloat[Caption of image 3]
+    {\includegraphics[width=.35\linewidth]{gfx/sample4}} \quad
+    \subfloat[Caption of image 4]
+    {\includegraphics[width=.35\linewidth]{gfx/sample5}} \\
+    \subfloat[Caption of image 5]
+    {\includegraphics[width=.35\linewidth]{gfx/sample6}} \quad
+    \subfloat[Caption of image 6]
+    {\includegraphics[width=.35\linewidth]{gfx/sample7}}
+    \caption[Side-by-side image]{Caption for all images.}
+    \label{fig:side_by_side}
+\end{figure}
+
+
+\subsection{Tables}
+
+See Table~\ref{tab:example}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat elementum justo a scelerisque. Nam a urna a velit pretium malesuada. Nulla facilisi. Praesent sollicitudin sodales luctus. Sed eros ipsum, auctor vitae interdum vel, varius id sem. Donec iaculis, nulla nec gravida pharetra, est purus rutrum lorem, ut pretium nulla sem eget elit. Duis eu adipiscing augue. Vestibulum et mattis magna.
+
+\begin{table}
+    \myfloatalign
+  \begin{tabularx}{15cm}{p{1cm} p{3cm} p{8.5cm}}
+    \toprule
+    \tableheadline{Test} & \tableheadline{Test} & \tableheadline{Test} \\ \midrule
+    Test & Example &  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat elementum justo a scelerisque. Nam a urna a velit pretium malesuada. \\
+    \midrule
+    Test & Example &  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat elementum justo a scelerisque. Nam a urna a velit pretium malesuada. \\
+    \midrule
+    Test & Example &  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat elementum justo a scelerisque. Nam a urna a velit pretium malesuada. \\
+    \midrule
+    Test & Example &  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat elementum justo a scelerisque. Nam a urna a velit pretium malesuada. \\
+    \bottomrule
+  \end{tabularx}
+  \caption[Table example]{Table example}
+  \label{tab:example}
+\end{table}
+
+\subsection{Citations}
+
+You can cite the items listed in the "Bibliography.bib" file, like for example \cite{bentley:1999} and \cite{bringhurst:2002}. However, in the sample bibliography, there are more publications, like \cite{cormen:2001}, \cite{dueck:trio} and \cite{knuth:1974}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat elementum justo a scelerisque. Nam a urna a velit pretium malesuada. Nulla facilisi. Praesent sollicitudin sodales luctus. Sed eros ipsum, auctor vitae interdum vel, varius id sem. Donec iaculis, nulla nec gravida pharetra, est purus rutrum lorem, ut pretium nulla sem eget elit. Duis eu adipiscing augue. Vestibulum et mattis magna.
+
+\subsection{References}
+
+We include a sample second chapter and an appendix. However, neither Chapter~\ref{ch:second} nor Appendix~\ref{ch:appendix} are actually interesting, since they only contain more Lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat elementum justo a scelerisque. Nam a urna a velit pretium malesuada. Nulla facilisi. Praesent sollicitudin sodales luctus. Sed eros ipsum, auctor vitae interdum vel, varius id sem. Donec iaculis, nulla nec gravida pharetra, est purus rutrum lorem, ut pretium nulla sem eget elit. Duis eu adipiscing augue. Vestibulum et mattis magna. Curabitur sit amet est eu tortor tristique sodales. Morbi ullamcorper facilisis est ac commodo. Mauris lacinia leo et enim vehicula convallis mattis nisi venenatis.
+
+\section{Another section}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lorem ipsum, posuere vitae mattis sed, dictum in leo. Aenean felis diam, egestas a tincidunt id, tincidunt aliquam dui. Fusce posuere sagittis ipsum, eu tristique ligula elementum vitae. Aliquam erat volutpat. Donec sed erat lobortis nisl hendrerit pretium. Integer at bibendum est. Sed dapibus quam ut dui sodales auctor. Donec sodales orci condimentum erat euismod viverra. Aliquam ullamcorper ligula ac velit cursus fermentum. Pellentesque laoreet, libero eu rutrum dapibus, tellus velit tristique massa, id dignissim urna erat semper ligula.
+
+Cras et venenatis nibh. Vestibulum hendrerit egestas lorem vitae congue. Vivamus vitae vehicula lacus. Nam pellentesque tellus eget massa aliquam nec lacinia tellus porta. Curabitur consectetur ligula ut felis convallis elementum vitae vel nibh. Maecenas id felis lectus, ac scelerisque arcu. Morbi ut pharetra neque. Curabitur sit amet eros in justo aliquam rutrum. Nullam sed rutrum massa. Vestibulum consequat sem interdum justo fringilla ac condimentum odio ullamcorper. Nam fermentum nibh nisi, ut consectetur dui. Nunc fringilla congue ligula eu congue.
+
+Integer dignissim porta nulla, sed sollicitudin nisl placerat pulvinar. Aliquam placerat tincidunt urna, volutpat tristique neque eleifend quis. Curabitur luctus erat vitae odio posuere a bibendum neque adipiscing. Aliquam malesuada lectus tortor. In malesuada mi et dui molestie viverra placerat nibh aliquam. Praesent nunc risus, rhoncus posuere iaculis vel, molestie ut mauris. Quisque faucibus, mauris eu congue pretium, eros turpis pharetra nisl, quis luctus massa dolor et est. Donec eu odio in elit tincidunt mollis. Integer eleifend ullamcorper sem ac tristique. Aliquam consequat lorem vitae dolor egestas pharetra sagittis urna volutpat. Nullam adipiscing urna tellus, vitae vestibulum mauris. In hac habitasse platea dictumst. Cras ipsum lorem, ultricies eu pretium vel, feugiat sed tortor. Nunc consectetur, urna ut porttitor lobortis, nulla quam mattis tellus, id egestas massa diam eu enim. Quisque eget urna risus. Mauris nec lorem quis felis fringilla porta. Phasellus porttitor, nisi in consequat blandit, massa turpis volutpat sem, eget condimentum felis leo in erat. Sed et est mauris. 
